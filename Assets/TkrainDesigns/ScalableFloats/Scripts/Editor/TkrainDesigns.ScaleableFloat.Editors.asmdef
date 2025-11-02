@@ -1,0 +1,18 @@
+{
+    "name": "TkrainDesigns-ScaleableFloats-Editors",
+    "rootNamespace": "TkrainDesigns.ScalableFloats.Editors",
+    "references": [
+        "GUID:33c4971c51e23574baba20432fa1088a"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
