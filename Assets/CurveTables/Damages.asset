@@ -1,0 +1,144 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5ee5051869b48978d391425bdfb1b47, type: 3}
+  m_Name: Damages
+  m_EditorClassIdentifier: TkrainDesigns-ScalableFloats::TkrainDesigns.ScalableFloats.CurveTable
+  entries:
+  - name: Fireball
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1.8583579
+        outSlope: 1.8583579
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 10.374001
+        value: 19.278606
+        inSlope: 0.5764501
+        outSlope: 0.5764501
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.10413982
+      - serializedVersion: 3
+        time: 56.76444
+        value: 69.27136
+        inSlope: 0.38525206
+        outSlope: 0.38525206
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.11998146
+      - serializedVersion: 3
+        time: 100
+        value: 100
+        inSlope: 0.710726
+        outSlope: 0.710726
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - name: Melee
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.2828865
+        value: 2.380951
+        inSlope: 0.81861246
+        outSlope: 0.81861246
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 13.556465
+        value: 13.246868
+        inSlope: 0.5764501
+        outSlope: 0.5764501
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.10413982
+      - serializedVersion: 3
+        time: 60.866306
+        value: 64.98566
+        inSlope: 0.38525206
+        outSlope: 0.38525206
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.11998146
+      - serializedVersion: 3
+        time: 100.42432
+        value: 88.888885
+        inSlope: 0.6042576
+        outSlope: 0.6042576
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+  - name: Iceball
+    curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0.2828865
+        value: 2.380951
+        inSlope: 0.35864764
+        outSlope: 0.35864764
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 19.859566
+        value: 9.402081
+        inSlope: 0.5764501
+        outSlope: 0.5764501
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.10413982
+      - serializedVersion: 3
+        time: 70.07309
+        value: 42.740753
+        inSlope: 0.38525206
+        outSlope: 0.38525206
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.11998146
+      - serializedVersion: 3
+        time: 99.64526
+        value: 63.211136
+        inSlope: 0.6922177
+        outSlope: 0.6922177
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4

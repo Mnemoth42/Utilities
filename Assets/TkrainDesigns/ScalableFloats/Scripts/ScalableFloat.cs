@@ -6,16 +6,19 @@ namespace TkrainDesigns.ScalableFloats
     public struct ScalableFloat
     {
         [field: SerializeField] public float Value { get; private set; } 
-        [field: SerializeField] public AnimationCurve Curve { get; private set; }
         
+        [SerializeField] private CurveTable curveTable;
+        [SerializeField] private string curveName;
         
-        public ScalableFloat(float value, AnimationCurve curve)
+
+
+        public float Evaluate(float level)
         {
-            Value = value;
-            Curve = curve;
+            if(curveTable == null) return Value;
+            var curve = curveTable[curveName];
+            return curve.curve.Evaluate(level) * Value;
+
         }
-        
-        public float Evaluate(float level) => Curve.Evaluate(level) * Value;
         
         public int EvaluateInt(float level) => Mathf.RoundToInt(Evaluate(level));
         

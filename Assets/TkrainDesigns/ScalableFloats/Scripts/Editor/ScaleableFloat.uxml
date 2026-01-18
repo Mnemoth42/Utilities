@@ -1,0 +1,5 @@
+<ui:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="True">
+    <ui:FloatField label="Float Field" value="42.2" name="Value" />
+    <uie:ObjectField label="Curve Table" data-source-type="TkrainDesigns.ScalableFloats.CurveTable, TkrainDesigns-ScalableFloats" allow-scene-objects="false" type="TkrainDesigns.ScalableFloats.CurveTable, TkrainDesigns-ScalableFloats" name="CurveTable" />
+    <ui:DropdownField label="Table" />
+</ui:UXML>
