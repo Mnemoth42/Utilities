@@ -23,6 +23,11 @@ namespace TkrainDesigns.ScalableFloats
         public int EvaluateInt(float level) => Mathf.RoundToInt(Evaluate(level));
         
         public bool EvaluateBool(float level) => Evaluate(level) > 0;
+
+        public static ScalableFloat New()
+        {
+            return new ScalableFloat();
+        }
         
     }
 }

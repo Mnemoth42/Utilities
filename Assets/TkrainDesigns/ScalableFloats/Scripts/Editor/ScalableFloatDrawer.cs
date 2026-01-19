@@ -5,7 +5,7 @@ using System.Reflection;
 using UnityEditor;
 using UnityEngine;
 
-namespace TkrainDesigns.ScalableFloats
+namespace TkrainDesigns.ScalableFloats.Editors
 {
     [CustomPropertyDrawer(typeof(ScalableFloat))]
     public class ScalableFloatDrawer : PropertyDrawer

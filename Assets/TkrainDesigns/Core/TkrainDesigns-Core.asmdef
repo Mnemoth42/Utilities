@@ -1,6 +1,6 @@
 {
-    "name": "TkrainDesigns-ScalableFloats",
-    "rootNamespace": "TkrainDesigns.ScalableFloats",
+    "name": "TkrainDesigns-Core",
+    "rootNamespace": "TkrainDesigns.Core",
     "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
