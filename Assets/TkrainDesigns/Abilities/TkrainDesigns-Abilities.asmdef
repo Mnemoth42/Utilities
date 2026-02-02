@@ -1,0 +1,18 @@
+{
+    "name": "TkrainDesigns-Abilities",
+    "rootNamespace": "TkrainDesigns.Abilities",
+    "references": [
+        "GUID:70949120bd1bfe7419e5cb7ba83cfc69",
+        "GUID:33c4971c51e23574baba20432fa1088a",
+        "GUID:f02dc6d3d02e1ea44b63abed28711a6d"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
