@@ -14,19 +14,27 @@ namespace TkrainDesigns.Attributes
     [System.Serializable]
     public class AttributeModifier
     {
-        public AttributeModifierType ModifierType = AttributeModifierType.Additive;
-        public float Value = 0;
+        [field: SerializeField] public AttributeModifierType ModifierType { get; private set; } = AttributeModifierType.Additive;
+        [field: SerializeField] public float Value { get; private set; } = 0;
     }
     
     [System.Serializable]
     public class AttributeDependency
     {
-        public AttributeSO SourceAttribute;
-        public AttributeModifierType ModifierType;
-        public ScalableFloat Modifier;
+        [field: SerializeField] public AttributeSO SourceAttribute { get; private set; }
+        [field: SerializeField] public AttributeModifierType ModifierType { get; private set; }
+        [field: SerializeField] public ScalableFloat Modifier { get; private set; }
+
+        public AttributeDependency(AttributeSO sourceAttribute, AttributeModifierType modifierType, ScalableFloat modifier)
+        {
+            SourceAttribute = sourceAttribute;
+            ModifierType = modifierType;
+            Modifier = modifier;
+        }
     }
     
     [CreateAssetMenu(fileName = "New Attribute", menuName = "TkrainDesigns/Attribute", order = 0)]
+    // ReSharper disable once InconsistentNaming
     public class AttributeSO : ScriptableObject
     {
         [field: SerializeField] public string Name { get; private set; }= "";
