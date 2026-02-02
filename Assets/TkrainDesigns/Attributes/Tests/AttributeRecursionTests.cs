@@ -1,7 +1,5 @@
 ﻿using NUnit.Framework;
 using UnityEngine;
-using TkrainDesigns.Attributes;
-using System.Collections.Generic;
 
 namespace TkrainDesigns.Attributes.Tests
 {
@@ -15,7 +13,7 @@ namespace TkrainDesigns.Attributes.Tests
 
             attrA.SetDependencies(new[]
             {
-                new AttributeDependency { SourceAttribute = attrB }
+                new AttributeDependency(attrB, AttributeModifierType.Additive, default)
             });
 
             Assert.IsFalse(attrA.HasCircularDependency());
@@ -28,7 +26,7 @@ namespace TkrainDesigns.Attributes.Tests
             
             attrA.SetDependencies(new[]
             {
-                new AttributeDependency { SourceAttribute = attrA }
+                new AttributeDependency(attrA, AttributeModifierType.Additive, default)
             });
 
             Assert.IsTrue(attrA.HasCircularDependency());
@@ -43,15 +41,15 @@ namespace TkrainDesigns.Attributes.Tests
 
             attrA.SetDependencies(new[]
             {
-                new AttributeDependency { SourceAttribute = attrB }
+                new AttributeDependency(attrB, AttributeModifierType.Additive, default)
             });
             attrB.SetDependencies(new[]
             {
-                new AttributeDependency { SourceAttribute = attrC }
+                new AttributeDependency(attrC, AttributeModifierType.Additive, default)
             });
             attrC.SetDependencies(new[]
             {
-                new AttributeDependency { SourceAttribute = attrA }
+                new AttributeDependency(attrA, AttributeModifierType.Additive, default)
             });
 
             Assert.IsTrue(attrA.HasCircularDependency());
@@ -69,12 +67,12 @@ namespace TkrainDesigns.Attributes.Tests
             // This is a Directed Acyclic Graph (DAG), not circular
             attrA.SetDependencies(new[]
             {
-                new AttributeDependency { SourceAttribute = attrB },
-                new AttributeDependency { SourceAttribute = attrC }
+                new AttributeDependency(attrB, AttributeModifierType.Additive, default),
+                new AttributeDependency(attrC, AttributeModifierType.Additive, default)
             });
             attrB.SetDependencies(new[]
             {
-                new AttributeDependency { SourceAttribute = attrC }
+                new AttributeDependency(attrC, AttributeModifierType.Additive, default)
             });
 
             Assert.IsFalse(attrA.HasCircularDependency());
