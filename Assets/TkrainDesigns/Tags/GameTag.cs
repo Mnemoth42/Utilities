@@ -1,10 +1,11 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace TkrainDesigns.Tags
 {
     [System.Serializable]
-    public class GameTag
+    public struct GameTag : IEquatable<GameTag>
     {
         [field: SerializeField] public string Tag { get; private set; }
         
@@ -26,6 +27,21 @@ namespace TkrainDesigns.Tags
                 if(parts[i] != tagParts[i]) return false;
             }
             return true;
+        }
+
+        public bool Equals(GameTag other)
+        {
+            return Tag == other.Tag;
+        }
+
+        public override bool Equals(object obj)
+        {
+            return obj is GameTag other && Equals(other);
+        }
+
+        public override int GetHashCode()
+        {
+            return (Tag != null ? Tag.GetHashCode() : 0);
         }
     }
 }

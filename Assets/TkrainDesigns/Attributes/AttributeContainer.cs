@@ -73,6 +73,13 @@ namespace TkrainDesigns.Attributes
         {
             OnAttributeChanged?.Invoke(attribute, GetAttributeValue(attribute));
         }
+
+        private Vector3 GetCapsuleBottomPoint(CapsuleCollider capsuleCollider)
+        {
+            Vector3 capsuleCenter = capsuleCollider.transform.TransformPoint(capsuleCollider.center);
+            float offset = (capsuleCollider.height * 0.5f) - capsuleCollider.radius;
+            return capsuleCenter + Vector3.down * offset;
+        }
         
     }
 }

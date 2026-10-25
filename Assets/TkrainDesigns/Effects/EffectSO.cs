@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using TkrainDesigns.Attributes;
 using TkrainDesigns.ScalableFloats;
+using TkrainDesigns.Tags;
 using UnityEngine;
 
 namespace TkrainDesigns.Effects
@@ -17,10 +18,15 @@ namespace TkrainDesigns.Effects
     {
         [field: SerializeField] public string Name { get; private set; }= "";
         [field: SerializeField] public string Description { get; private set; }= "";
+        
         [field: SerializeField] public DurationType DurationType { get; private set; } = DurationType.Instant;
         [field: SerializeField] public ScalableFloat Duration { get; private set; }
         [field: SerializeField] public ScalableFloat Period { get; private set; }
         [field: SerializeField] public List<AttributeModifier> AttributeModifier { get; private set; }
         
+        [field: SerializeField] public GameTagContainer GrantedTags { get; private set; } = new GameTagContainer(new List<GameTag>());
+        [field: SerializeField] public GameTagContainer RevokedTags { get; private set; } = new GameTagContainer(new List<GameTag>());
+        [field: SerializeField] public GameTagContainer RequiredTags { get; private set; } = new GameTagContainer(new List<GameTag>());
+        [field: SerializeField] public GameTagContainer ExcludedTags { get; private set; } = new GameTagContainer(new List<GameTag>());
     }
 }
