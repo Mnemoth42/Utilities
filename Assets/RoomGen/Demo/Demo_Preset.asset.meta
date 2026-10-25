@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: de352ac2991224483a1a1b66cca5e628
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 215804
+  packageName: RoomGen - Procedural Generator
+  packageVersion: 3.0.0
+  assetPath: Assets/RoomGen/Demo/Demo_Preset.asset
+  uploadId: 778311

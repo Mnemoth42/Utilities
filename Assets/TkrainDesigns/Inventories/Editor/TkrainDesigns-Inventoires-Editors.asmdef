@@ -1,0 +1,20 @@
+{
+    "name": "TkrainDesigns-Inventoires-Editors",
+    "rootNamespace": "TkrainDesigns.Inventories.Editors",
+    "references": [
+        "GUID:9913e358e6cd2e7429c56eff9c08b070"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        ""
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
