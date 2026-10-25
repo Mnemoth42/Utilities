@@ -1,8 +1,9 @@
 {
-    "name": "TkrainDesigns-Inventoires-Editors",
+    "name": "TkrainDesigns-Inventories-Editors",
     "rootNamespace": "TkrainDesigns.Inventories.Editors",
     "references": [
-        "GUID:9913e358e6cd2e7429c56eff9c08b070"
+        "GUID:9913e358e6cd2e7429c56eff9c08b070",
+        "GUID:28d4bee4bae84b2f9c4b538ae1e69f8f"
     ],
     "includePlatforms": [
         "Editor"

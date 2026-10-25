@@ -57,6 +57,7 @@ namespace TkrainDesigns.Inventories
         {
         }
 
+        #region Lookup
         private static Dictionary<string, InventoryItem> items;
         
         public static InventoryItem GetFromID(string uniqueID)
@@ -79,5 +80,6 @@ namespace TkrainDesigns.Inventories
                 items.Add(item.UniqueId, item);
             }
         }
+        #endregion
     }
 }

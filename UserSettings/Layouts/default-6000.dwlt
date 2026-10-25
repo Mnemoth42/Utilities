@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 112}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 98
+  controlID: 109
   draggingID: 0
 --- !u!114 &3
 MonoBehaviour:
@@ -65,9 +65,9 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 2345.8906
+    x: 2345.0852
     y: 0
-    width: 725.8406
+    width: 726.646
     height: 1563.2446
   m_MinSize: {x: 276, y: 76}
   m_MaxSize: {x: 4001, y: 4026}
@@ -119,7 +119,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 926.4335
-    width: 2345.8906
+    width: 2345.0852
     height: 636.81116
   m_MinSize: {x: 231, y: 276}
   m_MaxSize: {x: 10001, y: 10026}
@@ -219,7 +219,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 2345.8906
+    width: 2345.0852
     height: 1563.2446
   m_MinSize: {x: 200, y: 112}
   m_MaxSize: {x: 16192, y: 16192}
@@ -245,7 +245,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 2345.8906
+    width: 2345.0852
     height: 926.4335
   m_MinSize: {x: 200, y: 56}
   m_MaxSize: {x: 16192, y: 8096}
@@ -269,7 +269,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 580.8335
     y: 0
-    width: 1765.0571
+    width: 1764.2517
     height: 926.4335
   m_MinSize: {x: 282, y: 276}
   m_MaxSize: {x: 4002, y: 4026}
@@ -597,7 +597,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 581.8335
     y: 24
-    width: 1763.0571
+    width: 1762.2517
     height: 900.4335
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -635,7 +635,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 950.4335
-    width: 2344.8906
+    width: 2344.0852
     height: 610.81116
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -661,7 +661,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Game/Resources/Inventory
+    - Packages/com.tkraindesigns.utilities/Inventories/Editor
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -671,26 +671,31 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Game/Resources/Inventory
+  - Packages/com.tkraindesigns.utilities/Inventories/Editor
   m_LastFoldersGridSize: -1
   m_LastProjectPath: F:\UnityUtilities\Utilities
   m_LockTracker:
     m_IsLocked: 0
   m_LastLocalAssetsSearchArea: 1
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
+    scrollPos: {x: 0, y: 341.2334}
     m_SelectedIDs:
-    - m_Data: 52696
+    - m_Data: 47134
     m_LastClickedID:
-      m_Data: 52696
+      m_Data: 47134
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 46636
     - m_Data: 46638
     - m_Data: 46640
     - m_Data: 46642
     - m_Data: 46644
     - m_Data: 46646
+    - m_Data: 46648
+    - m_Data: 46650
+    - m_Data: 46652
+    - m_Data: 46654
+    - m_Data: 46656
+    - m_Data: 46658
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -723,12 +728,17 @@ MonoBehaviour:
       m_Data: 0
     m_ExpandedIDs:
     - m_Data: 0
-    - m_Data: 46636
     - m_Data: 46638
     - m_Data: 46640
     - m_Data: 46642
     - m_Data: 46644
     - m_Data: 46646
+    - m_Data: 46648
+    - m_Data: 46650
+    - m_Data: 46652
+    - m_Data: 46654
+    - m_Data: 46656
+    - m_Data: 46658
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -755,9 +765,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs:
-    - m_Data: 53022
-    m_LastClickedInstanceID: 53022
+    m_SelectedInstanceIDs: []
+    m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: []
     m_RenameOverlay:
@@ -810,9 +819,9 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 2346.8906
+    x: 2346.0852
     y: 24
-    width: 724.8406
+    width: 725.646
     height: 1537.2446
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -885,7 +894,7 @@ MonoBehaviour:
       m_LastClickedID:
         m_Data: 0
       m_ExpandedIDs:
-      - m_Data: -15590
+      - m_Data: -1322
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1746,10 +1755,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Console\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 2249
-    y: 726.5
-    width: 920
-    height: 250
+    x: 0
+    y: 1013.60004
+    width: 2344.8906
+    height: 610.7666
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0

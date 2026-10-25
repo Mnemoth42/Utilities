@@ -1,0 +1,13 @@
+{
+  "name": "com.tkraindesigns.utilities",
+  "version": "0.1.0",
+  "displayName": "TkrainDesigns Utilities",
+  "description": "Shared gameplay utilities: Attributes, Abilities, Effects, Tags, Inventories, ScalableFloats and SceneHandlers.",
+  "unity": "6000.0",
+  "author": {
+    "name": "Brian K. Trotter"
+  },
+  "dependencies": {
+    "com.unity.nuget.newtonsoft-json": "3.2.2"
+  }
+}

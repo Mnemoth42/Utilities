@@ -1,0 +1,16 @@
+{
+    "name": "TkrainDesigns-Extensions-Editors",
+    "rootNamespace": "TkrainDesigns.Extensions.Editors",
+    "references": [],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
